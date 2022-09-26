@@ -13,11 +13,11 @@ RSpec.describe 'books endpoints' do
     expect(forecast[:attributes]).to be_a Hash
     expect(forecast[:attributes][:forecast]).to be_a Hash
     expect(forecast[:attributes][:forecast][:summary]).to be_a String
-    expect(forecast[:attributes][:forecast][:temperature]).to be_a Float
+    expect(forecast[:attributes][:forecast][:temperature]).to be_a String
 
-    expect(forecast[:attributes][:total_books_found]).to be_a Hash
-    expect(forecast[:attributes][:total_books_found][:title]).to be_a String
-    expect(forecast[:attributes][:total_books_found][:publisher]).to be_a String
+    expect(forecast[:attributes][:total_books_found]).to be_a Integer
+    expect(forecast[:attributes][:books][0][:title]).to be_a String
+    expect(forecast[:attributes][:books][0][:publisher][0]).to be_a String
 
   end
 end

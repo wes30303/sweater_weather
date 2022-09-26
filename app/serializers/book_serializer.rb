@@ -8,14 +8,14 @@ class BookSerializer
          "destination": location,
          "forecast": {
            "summary": forecast.current_weather.description,
-           "temperature": forecast.current_weather.feels_like
+           "temperature": forecast.current_weather.feels_like.to_s
            },
 
        "total_books_found": books[1],
-       "books": books.map do |book|
+       "books": books[0].map do |book|
          {
-           "title": book.title,
            "isbn": book.isbn,
+           "title": book.title,
            "publisher": book.publisher
          }
        end

@@ -5,7 +5,7 @@ class Book
     @id = nil
     @isbn = data[:isbn]
     @title = data[:title]
-    @publisher = data[:title]
+    @publisher = data[:publisher]
   end
 
 end
