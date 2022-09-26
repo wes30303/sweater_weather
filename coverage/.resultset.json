@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/wesleymiranda/sweater_weather/spec/requests/api/v1/forcast/forcast_spec.rb": {
+      "/Users/wesleymiranda/sweater_weather/spec/requests/api/v1/book/book_spec.rb": {
         "lines": [
           1,
           null,
@@ -11,6 +11,19 @@
           null,
           1,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -235,19 +248,20 @@
           null
         ]
       },
-      "/Users/wesleymiranda/sweater_weather/app/controllers/api/v1/forcast_controller.rb": {
+      "/Users/wesleymiranda/sweater_weather/app/controllers/api/v1/book_controller.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
-          1,
-          null,
           null,
           1,
           1,
+          null,
           1,
+          null,
+          null,
           null,
           null
         ]
@@ -255,6 +269,70 @@
       "/Users/wesleymiranda/sweater_weather/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/wesleymiranda/sweater_weather/app/facades/books_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          5,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/wesleymiranda/sweater_weather/app/services/books_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/wesleymiranda/sweater_weather/app/poros/book.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          5,
+          5,
+          5,
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/wesleymiranda/sweater_weather/app/facades/books_whether_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -440,15 +518,37 @@
           null
         ]
       },
-      "/Users/wesleymiranda/sweater_weather/app/serializers/whether_serializer.rb": {
+      "/Users/wesleymiranda/sweater_weather/app/serializers/book_serializer.rb": {
         "lines": [
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          5,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1664214909
+    "timestamp": 1664216140
   }
 }
