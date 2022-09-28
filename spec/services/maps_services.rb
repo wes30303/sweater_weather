@@ -4,7 +4,7 @@ describe MapsService do
   context "class methods" do
     context "#members_by_state" do
       it "returns location in corddinits", :vcr do
-        search = MapsFacade.get_location("Denver Co")
+        search = MapsService.get_location("Denver Co")
         expect(search).to be_a Hash
         expect(search[:results]).to be_an Array
 

@@ -6,7 +6,7 @@ class MapsService
     parse_json(response)
   end
 
-  def self.directions(from, to)
+  def self.get_directions(from, to)
     response = conn.get('/directions/v2/route') do |route|
       route.params['from'] = from
       route.params['to'] = to
